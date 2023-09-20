@@ -1,0 +1,69 @@
+:: Start
+You find yourself standing at the entrance of a dark forest. The path splits into two: one leading deeper into the woods, and the other leading to a nearby village. 
+
+[[Enter the forest->Forest]]
+[[Go to the village->Village]]
+
+:: Forest
+The trees are dense and the path is overgrown. As you walk, you hear a faint crying sound. Following the sound, you come across a baby dragon, trapped under some fallen branches.
+
+[[Help the dragon->HelpDragon]]
+[[Leave the forest->Start]]
+
+:: HelpDragon
+You carefully lift the branches and free the baby dragon. It chirps happily and seems to want to follow you.
+
+[[Take the dragon with you to the village->VillageWithDragon]]
+[[Leave the dragon and head to the village->Village]]
+
+:: Village
+The village is bustling with people. They all stare at you, as if they've never seen an outsider before. An elderly woman approaches you.
+
+"You look like you could use some guidance," she says.
+
+[[Ask her about the forest->AskAboutForest]]
+[[Thank her and continue exploring the village->ExploreVillage]]
+
+:: AskAboutForest
+"The forest is ancient and holds many secrets. Some say there are magical creatures that live there. It's also said that those who help these creatures are rewarded generously."
+
+[[Thank her and continue exploring the village->ExploreVillage]]
+
+:: ExploreVillage
+As you explore the village, you come across a blacksmith, a bakery, and a small market. Where would you like to go?
+
+[[Visit the blacksmith->Blacksmith]]
+[[Check out the bakery->Bakery]]
+
+:: VillageWithDragon
+With the baby dragon at your side, the villagers react differently. Children gather around, curious and excited. Some adults look worried, but most seem intrigued.
+
+An elder approaches you. "You've done a kind deed," he says. "The forest hasn't blessed us with a dragon in generations. Please, let us reward you."
+
+[[Accept the reward->AcceptReward]]
+[[Politely decline->DeclineReward]]
+
+:: AcceptReward
+The villagers shower you with gifts: gold, fresh food, and handmade crafts. The elder gives you a special amulet. "This will protect you on your journeys," he says.
+
+[[Thank the villagers and continue your journey->End]]
+
+:: DeclineReward
+"You've shown kindness twice now," the elder says with a smile. "Your heart is rich already. Safe travels."
+
+[[Thank the villagers and continue your journey->End]]
+
+:: Blacksmith
+The blacksmith is hard at work, but he pauses to greet you. "New to the village?" he asks. You nod. "If you need any tools or repairs, just let me know."
+
+[[Thank him and leave->ExploreVillage]]
+
+:: Bakery
+The scent of fresh bread fills the air. The baker offers you a sample of her latest creation. It's delicious.
+
+[[Thank her and leave->ExploreVillage]]
+
+:: End
+With new experiences and memories, you continue on your journey, always remembering the village and the magical forest.
+
+THE END
